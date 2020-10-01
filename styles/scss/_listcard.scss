@@ -1,0 +1,71 @@
+.watchlist_h4 {
+  color: white;
+  text-align: center;
+}
+
+.watchlist_container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.watchlist_items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listcard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 200px;
+  height: auto;
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.listcard_sub {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.list_poster {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 295px;
+  }
+}
+
+.list_delete_btn {
+  margin-top: auto;
+  width: 100%;
+  box-shadow: inset 0px 1px 0px 0px #cf866c;
+  background: linear-gradient(to bottom, #a33415 5%, #bc3315 100%);
+  background-color: #a33415;
+  border-radius: 3px;
+  border: 1px solid #942911;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #854629;
+}
+.list_delete_btn:hover {
+  background: linear-gradient(to bottom, #bc3315 5%, #a33415 100%);
+  background-color: #bc3315;
+}
+.list_delete_btn:active {
+  position: relative;
+  top: 1px;
+}

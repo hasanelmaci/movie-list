@@ -1,0 +1,148 @@
+@include media-md {
+  .container-lg {
+    width: 90%;
+  }
+
+  .col {
+    height: 270px !important;
+  }
+
+  .header {
+    width: 100% !important;
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 20px !important;
+  }
+
+  .search-input {
+    width: 250px !important;
+    height: 30px;
+  }
+
+  .movie-info {
+    margin-top: 100px;
+    width: 100%;
+    flex-direction: column;
+
+    .poster {
+      width: 100%;
+      height: auto;
+      margin-top: -80px;
+    }
+    img {
+      display: block;
+      width: 200px;
+      margin: 0 auto;
+      border: 1px solid gray;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+  .info_container {
+    width: 95%;
+  }
+
+  .header_sub {
+    .mylist_link {
+      align-self: center;
+      margin-top: 20px;
+    }
+  }
+
+  .watchlist_h4 {
+    margin-top: 15px;
+  }
+
+  .watchlist_container {
+    width: 100%;
+  }
+
+  .listcard {
+    width: 130px;
+    margin-left: 40px;
+  }
+
+  .list_poster {
+    img {
+      height: 100%;
+    }
+  }
+
+  .listcard_sub {
+    h6 {
+      margin-top: 15px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@include media-lg {
+  .header {
+    width: 100% !important;
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 20px !important;
+  }
+
+  .search-input {
+    width: 250px !important;
+    height: 30px;
+  }
+
+  .col {
+    height: 260px !important;
+  }
+
+  .movie-info {
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .movie_title {
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .header_sub {
+    .mylist_link {
+      align-self: center;
+    }
+  }
+
+  .header_sub {
+    .mylist_link {
+      align-self: center;
+      margin-top: 20px;
+    }
+  }
+
+  .watchlist_h4 {
+    margin-top: 15px;
+  }
+
+  .watchlist_container {
+    width: 90%;
+  }
+
+  .listcard {
+    width: 130px;
+    margin-left: 40px;
+  }
+
+  .list_poster {
+    img {
+      height: 100%;
+    }
+  }
+}
