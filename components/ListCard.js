@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from 'next/link'
 
 function ListCard({ itemkey, effectDelete }) {
   const [load, setLoad] = useState(false);
@@ -28,11 +29,14 @@ function ListCard({ itemkey, effectDelete }) {
       {load === true && movie ? (
         <div className="listcard">
           <div className="list_poster">
-            <img src={movie.Poster} alt={movie.Title} />
+          <Link  href={`/[movie]`} as={`/${movie.imdbID}`}><a className='listcard_movie_link'><img src={movie.Poster} alt={movie.Title} /> </a></Link>
+            
           </div>
+          
           <div className="listcard_sub">
             <div className="list_title">
               <h6>{movie.Title}</h6>
+              
             </div>
             <button className="list_delete_btn" onClick={handleDelete}>
               Delete

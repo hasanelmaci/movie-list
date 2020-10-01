@@ -7,6 +7,18 @@ import Link from "next/link";
 function Movie({ movie }) {
   return (
     <div className="movie">
+       <Head>
+      <meta charset="UTF-8"/>
+      <title>Movie List</title>
+  <meta name="description" content="Informations about movies"/>
+  <meta name="keywords" content="Movie,List"/>
+  <meta name="author" content="Hasan Elmacı"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Head>
+
+
+
+
       <div>
         <div className="header">
           <Header />
