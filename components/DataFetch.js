@@ -11,7 +11,6 @@ const DataFetch = ({ movie }) => {
   return (
     <div>
       <input type="text" onChange={(e) => handleChange(e)} />
-      {console.log({ movie })}
     </div>
   );
 };

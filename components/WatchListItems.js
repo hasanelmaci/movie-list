@@ -13,7 +13,6 @@ function WatchListItems() {
     let keyIndex = localkeys.indexOf(key);
     setLocalKeys(localkeys.splice(keyIndex, 1));
     setLocalLength(localLength - 1);
-    console.log(localkeys);
   };
 
   useEffect(() => {

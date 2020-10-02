@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 function MovieInfo({ movie }) {
-  console.log(movie);
 
   const [load, setLoad] = useState(false);
 
