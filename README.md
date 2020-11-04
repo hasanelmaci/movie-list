@@ -1,6 +1,6 @@
 # movie-list
 run ``npm install`` before start<br>
-Development mode:``npm next start`` <br>
+Development mode:``npm run start`` <br>
 Live Demo: https://movie-list-theta.vercel.app/
 
 <br><br>
