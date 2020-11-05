@@ -9,6 +9,6 @@ Live Demo: https://movie-list-theta.vercel.app/
 
 
 <br><br>
-This is my first project which is include NextJS and React Hooks.
+This is my very first project that includes NextJS and React Hooks.
 
 
